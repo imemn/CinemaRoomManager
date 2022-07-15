@@ -1,0 +1,28 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun printFifthCharacter(input: String): String {
+        return "The fifth character of the entered word is ${input[4]}"
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10626#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:11:13: error: parameters must have type annotation
+        catch (e.StringIndexOutOfBoundsException;){
+                ^
+    main.kt:11:14: error: expecting ')'
+        catch (e.StringIndexOutOfBoundsException;){
+                 ^
+    main.kt:11:45: error: expecting a block: { ... }
+        catch (e.StringIndexOutOfBoundsException;){
+                                                ^
+    main.kt:11:46: error: expecting an element
+        catch (e.StringIndexOutOfBoundsException;){
+                                                 ^
+  time: Wed, 13 Jul 2022 04:03:17 UTC
+record: -1
